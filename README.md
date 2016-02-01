@@ -1,2 +1,2 @@
-# telegram-notification
-Scrape and extract data periodically from a website with python, dump to text file then send text via telegram-cli
+# telegram-bot-plugins
+I developed these telegram-bot plugins which are now being used in my workplace
