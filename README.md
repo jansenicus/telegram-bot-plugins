@@ -2,17 +2,8 @@
 I developed these telegram-bot plugins which are now being used in my workplace
 
 ## lua files
-#### updateposisi
-### registrasi
-#### updateinfo
-#### rekap
-#### infouker
-#### help
-#### cetak
-#### ace
 
-
-###posisi.lua
+### updateposisi.lua
 ####!posisi [your location]:
 Example:
 !posisi Arizona
@@ -37,21 +28,25 @@ usage:
 Contoh:
 !unreg atm 0062
 !unreg atm 0853
-
+#### updateinfo
 !updateinfo atm [terminal ID] [keterangan]
 : update informasi problem ATM
 Contoh:
 !updateinfo atm 12345678 Tangan Robot bermasalah karena terlalu letih, besok akan saya tindak lanjuti.
 
+#### rekap
 !rekap atm [3/2/1]
 mengambil status ATM Kanwil Jakarta 3, 2, 1
 
+#### infouker
 !infouko [4 digit branch code]
 :mengambil informasi unit kerja operasional
 
+#### help
 ketik '!help' akan tampil daftar plugin.
 ketik '!help all' akan tampil seluruh format perintah dari setiap plugin.
 
+#### cetak
 !cetak [atm/ cdm/ edc/ loan]
 Mendapatkan dashboard atmpro/ cdmpro/ edcpro atau loanpro
 Contoh:
@@ -60,6 +55,7 @@ Contoh:
 !cetak edc
 !cetak cdm
 
+#### ace
 !notif atm [Kode Cabang]
 : mengambil status availability ATM
  per uker supervisi
