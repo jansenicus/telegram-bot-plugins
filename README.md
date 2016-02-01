@@ -1,12 +1,24 @@
 # telegram-bot-plugins
 I developed these telegram-bot plugins which are now being used in my workplace
-## command format
-!posisi [lokasi Anda berada]:
 
-Contoh:
-!posisi Sendik Jakarta Gatsu
-!posisi Lantai 5, Kanwil Jakarta III
+## lua files
+#### updateposisi
+### registrasi
+#### updateinfo
+#### rekap
+#### infouker
+#### help
+#### cetak
+#### ace
 
+
+###posisi.lua
+####!posisi [your location]:
+Example:
+!posisi Arizona
+!posisi Palo Alto California
+
+### registrasi.lua
 Pendaftaran user Telegram untuk dapat menerima notifikasi e-channel per kode cabang
 
 usage:
