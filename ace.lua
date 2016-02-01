@@ -1,4 +1,4 @@
--- 08.10.2015 copied from Development Environment
+-- 08.10.2015 original idea
 -- (c) Jansen A. Simanullang
 -- last update: 26.01.2016 17:06:45
 local function run(msg, matches)
